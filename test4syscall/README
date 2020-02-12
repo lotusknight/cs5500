@@ -1,0 +1,6 @@
+
+You can add a cmd line argument for test_syscall and task3.
+i.e. we get the pid 4960 of a process, then you can run like
+[user@localhost]$ ./test_syscall 4960
+[user@localhost]$ ./task3 4960
+If not, you can also input the pid after running the process.
