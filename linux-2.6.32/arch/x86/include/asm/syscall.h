@@ -208,9 +208,9 @@ static inline void syscall_set_arguments(struct task_struct *task,
 		}
 }
 
-asmlinkage int sys_helloworld(void);
-asmlinkage int sys_print_self(int pid);
-//asmlinkage int sys_print_other(pid);
+//asmlinkage int sys_helloworld(void);
+//asmlinkage int sys_print_self(void);
+//asmlinkage int sys_print_other(int pid);
 
 #endif	/* CONFIG_X86_32 */
 
